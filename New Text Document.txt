@@ -1,0 +1,20 @@
+class A
+{
+   A(int A,int B)
+   {
+      x=A; y=B;
+   }
+   void show()
+   {
+      System.out.println(x+" "+y);
+   }
+}
+class Constructor_Parameterized
+{
+   public static void main(String args[])
+   {
+     A obj=new A(100,200); // A(100,200) is a Parameterized constructor
+     
+   }
+} 
+    
